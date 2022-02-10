@@ -1,23 +1,44 @@
 .jumbotron {
-    padding-top: 6rem;
-    background-color: #e2edff;
+  padding-top: 6rem;
+  background-color: #e2edff;
 }
 
 #experience {
-    padding-top: 2rem;
-    background-color: #fff;
+  padding-top: 2rem;
+  background-color: #fff;
 }
 
 #education {
-    padding-top: 2rem;
-    background-color: #e2edff;
+  padding-top: 2rem;
+  background-color: #e2edff;
 }
 
 #contact {
-    padding-top: 2rem;
-    background-color: #e2edff;
+  padding-top: 2rem;
+  background-color: #e2edff;
 }
 
 section {
-    padding-top: 5rem;
+  padding-top: 5rem;
+}
+
+.carousel__img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel__caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  top: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.sosmed {
+  text-decoration: none;
 }
