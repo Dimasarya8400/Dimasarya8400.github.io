@@ -13,6 +13,8 @@
     <!-- Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>My Resume</title>
   </head>
@@ -57,7 +59,7 @@
     <section class="jumbotron text-center">
       <img src="assets/img/Pas Foto Bg Putih.png" alt="Dimas" width="200" class="img-thumbnail rounded-circle" />
       <h1 class="display-4">Dimas Arya Yudistira</h1>
-      <p class="lead">Technical Operation | Junior Programmer</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -72,12 +74,12 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-4">
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
             <h2>About me</h2>
           </div>
         </div>
         <div class="row text-center fs-5">
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
             <p>
               I am a fresh graduate in 2021. I am interested in programming and administration. Therefore, I will be happy if I can implement my passion in a job. I haveexperience as administration, operator and technical operation or
               support. I am able to operate Microsoft Office well, I have programming skills using HTML, Bootstrap and Laravel, and I want to learn about things I don't know.
@@ -90,7 +92,7 @@
 
     <!-- Experience -->
     <section id="experience">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="1000" data-aos-delay="300" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -191,23 +193,23 @@
     <section id="education">
       <div class="container mt-5">
         <div class="row text-center mb-4">
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
             <h2>Education</h2>
           </div>
         </div>
-        <div class="card mb-3 ms-auto me-auto" style="max-width: 1000px">
+        <div class="card mb-3 ms-auto me-auto" style="max-width: 1000px" data-aos="zoom-in" data-aos-duration="1000">
           <div class="row">
             <div class="col-md-4">
-              <img src="assets/img/edu3.jpg" class="img-fluid rounded-start" alt="edu" />
+              <img src="assets/img/edu3.jpg" class="img-fluid rounded-start" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" alt="edu" />
             </div>
             <div class="col-md-8 mx-auto">
               <div class="card-body">
-                <h5 class="card-title">
+                <h5 class="card-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                   Politeknik LP3I Jakarta Kampus Pondok Gede
                   <p class="text-secondary d-inline">- Jakarta, Indonesia</p>
                 </h5>
-                <p class="card-text">Diploma Informatika Komputer, 3.19/4.00.</p>
-                <p class="card-text"><small class="text-muted">September 2018 - September 2021</small></p>
+                <p class="card-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Diploma Informatika Komputer, 3.19/4.00.</p>
+                <p class="card-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"><small class="text-muted">September 2018 - September 2021</small></p>
               </div>
             </div>
           </div>
@@ -226,36 +228,36 @@
     <!-- Skills -->
     <section id="skills">
       <div class="container">
-        <div class="row text-center mb-4">
+        <div class="row text-center mb-4" data-aos="fade-down" data-aos-duration="1000">
           <div class="col-md-12">
             <h2>Skills</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-3 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000">
               <img src="assets/img/office.png" class="card-img-top" alt="office" />
             </div>
           </div>
           <div class="col-md-3 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
               <img src="assets/img/html.png" class="card-img-top" alt="html" />
             </div>
           </div>
           <div class="col-md-3 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
               <img src="assets/img/bootstrap.png" class="card-img-top" alt="bootstrap" />
             </div>
           </div>
           <div class="col-md-3 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1000">
               <img src="assets/img/laravel.png" class="card-img-top" alt="laravel" />
             </div>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="1000">
               <div class="card-header fw-bold">Personal Expertise :</div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Communication</li>
@@ -266,7 +268,7 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="card">
+            <div class="card" data-aos="fade-left" data-aos-delay="1200" data-aos-duration="1000">
               <div class="card-header fw-bold">Certificate :</div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item mt-1 mb-2">Certificate LSP Operator Computer</li>
@@ -291,26 +293,26 @@
     <section id="contact">
       <div class="container mt-5">
         <div class="row text-center mb-4">
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
             <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <div class="alert alert-success alert-dismissible fade show d-none myAlert" role="alert">
+            <div class="alert alert-success alert-dismissible fade show d-none myAlert" data-aos="zoom-in" data-aos-duration="1000" role="alert">
               <strong>Terima Kasih!</strong> Pesan anda sudah saya terima.
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
             <form name="contact-form">
-              <div class="form-floating mb-3">
+              <div class="form-floating mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
                 <input type="text" class="form-control" name="name" id="name" placeholder="Enter Full Name" />
                 <label for="name">Full Name</label>
               </div>
-              <div class="form-floating mb-3">
+              <div class="form-floating mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email" />
                 <label for="email">Email</label>
               </div>
-              <div class="form-floating">
+              <div class="form-floating" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
                 <textarea class="form-control" placeholder="Leave a comment here" name="comments" id="comments" style="height: 100px"></textarea>
                 <label for="comments">Comments</label>
               </div>
@@ -326,7 +328,7 @@
                 <label for="pesan" class="form-label">Pesan</label>
                 <textarea class="form-control" id="pesan" rows="3"></textarea>
               </div> -->
-              <button type="submit" class="btn btn-primary mt-2 btn-submit">Submit</button>
+              <button type="submit" class="btn btn-primary mt-2 btn-submit" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1100">Submit</button>
               <button class="btn btn-primary mt-2 btn-loading d-none" type="button" disabled>
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 Loading...
@@ -349,16 +351,24 @@
     <section id="social">
       <div class="container">
         <div class="row text-center mb-4">
-          <div class="col-md-12">
+          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
             <h2>Social Media</h2>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-12">
-            <h6 class="d-inline"><img src="assets/img/icons8_instagram_logo_4.svg" alt="ig" width="50" /><a href="https://www.instagram.com/dimasaryaaaa_/" class="sosmed">@dimasaryaaaa_</a></h6>
-            <h6 class="d-inline"><img src="assets/img/icons8_facebook.svg" alt="fb" /><a href="https://www.facebook.com/dimasaryay/" class="sosmed">Dimas Arya Yudistira</a></h6>
-            <h6 class="d-inline"><img src="assets/img/icons8_twitter.svg" alt="twitter" /><a href="https://twitter.com/DimasArya84" class="sosmed">@DimasArya84</a></h6>
-            <h6 class="d-inline"><img src="assets/img/icons8_linkedin.svg" alt="linkedin" /><a href="kedin.com/in/dimas-arya-yudistira-88b487144/" class="sosmed">Dimas Arya Yudistira</a></h6>
+            <h6 class="d-inline" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" data-aos-delay="600">
+              <img src="assets/img/icons8_instagram_logo_4.svg" alt="ig" width="50" /><a href="https://www.instagram.com/dimasaryaaaa_/" class="sosmed">@dimasaryaaaa_</a>
+            </h6>
+            <h6 class="d-inline" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" data-aos-delay="200">
+              <img src="assets/img/icons8_facebook.svg" alt="fb" /><a href="https://www.facebook.com/dimasaryay/" class="sosmed">Dimas Arya Yudistira</a>
+            </h6>
+            <h6 class="d-inline" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400" data-aos-delay="400">
+              <img src="assets/img/icons8_twitter.svg" alt="twitter" /><a href="https://twitter.com/DimasArya84" class="sosmed">@DimasArya84</a>
+            </h6>
+            <h6 class="d-inline" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400" data-aos-delay="800">
+              <img src="assets/img/icons8_linkedin.svg" alt="linkedin" /><a href="kedin.com/in/dimas-arya-yudistira-88b487144/" class="sosmed">Dimas Arya Yudistira</a>
+            </h6>
           </div>
         </div>
       </div>
@@ -379,6 +389,21 @@
     <!-- End Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 2, delay: 1.5, text: "Technical Operation | Junior Programmer" });
+      gsap.from(".jumbotron img", { duration: 1.5, rotateY: 360, opacity: 0 });
+      gsap.from(".navbar", { duration: 1.5, y: -100, opacity: 0, ease: "bounce" });
+      gsap.from(".jumbotron h1", { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: "back" });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxRtDuzjxNFNXM_HnFnkWd_GlXr5Afh6fffphK5xVEhVvoMX18BwIrs-H7I_LBXF93i/exec";
