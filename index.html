@@ -20,14 +20,14 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Dimas Arya Yudistira</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="nav navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
@@ -46,347 +46,326 @@
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#social">Social Media</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- End Navbar -->
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="assets/img/Pas Foto Bg Putih.png" alt="Dimas" width="200" class="img-thumbnail rounded-circle" />
-      <h1 class="display-4">Dimas Arya Yudistira</h1>
-      <p class="lead"></p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,128L30,133.3C60,139,120,149,180,138.7C240,128,300,96,360,122.7C420,149,480,235,540,240C600,245,660,171,720,144C780,117,840,139,900,154.7C960,171,1020,181,1080,192C1140,203,1200,213,1260,186.7C1320,160,1380,96,1410,64L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End Jumbotron -->
+    <div class="scrollspy-example" data-bs-offset="0" tabindex="0" data-bs-spy="scroll" data-bs-target="#navbar-example2">
+      <!-- Jumbotron -->
+      <section class="jumbotron text-center">
+        <img src="assets/img/Pas Foto Bg Putih.png" alt="Dimas" width="200" class="img-thumbnail rounded-circle" />
+        <h1 class="display-4">Dimas Arya Yudistira</h1>
+        <p class="lead"></p>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,128L30,133.3C60,139,120,149,180,138.7C240,128,300,96,360,122.7C420,149,480,235,540,240C600,245,660,171,720,144C780,117,840,139,900,154.7C960,171,1020,181,1080,192C1140,203,1200,213,1260,186.7C1320,160,1380,96,1410,64L1440,32L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- End Jumbotron -->
 
-    <!-- About Me -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
-            <h2>About me</h2>
+      <!-- About Me -->
+      <section id="about">
+        <div class="container">
+          <div class="row text-center mb-4">
+            <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
+              <h2 data-bs-spy="scroll" data-bs-target="#navbar-example2">About me</h2>
+            </div>
+          </div>
+          <div class="row text-center fs-5">
+            <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+              <p>
+                I am a fresh graduate in 2021. I am interested in programming and administration. Therefore, I will be happy if I can implement my passion in a job. I haveexperience as administration, operator and technical operation or
+                support. I am able to operate Microsoft Office well, I have programming skills using HTML, Bootstrap and Laravel, and I want to learn about things I don't know.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="row text-center fs-5">
-          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
-            <p>
-              I am a fresh graduate in 2021. I am interested in programming and administration. Therefore, I will be happy if I can implement my passion in a job. I haveexperience as administration, operator and technical operation or
-              support. I am able to operate Microsoft Office well, I have programming skills using HTML, Bootstrap and Laravel, and I want to learn about things I don't know.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End About Me -->
+      </section>
+      <!-- End About Me -->
 
-    <!-- Experience -->
-    <section id="experience">
-      <div id="carouselExampleCaptions" class="carousel slide" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="1000" data-aos-delay="300" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/img/admin.jpg" class="d-block w-100 opacity-50 carousel__img" alt="admin" />
-            <div class="carousel-caption carousel__caption d-none d-md-block">
-              <h5 class="text-black">
-                PT Green Construction City
-                <p class="text-secondary d-inline">- Bogor, Indonesia</p>
-              </h5>
-              <p class="text-black">Administration</p>
-              <figure>
-                <blockquote class="blockquote">
-                  <p class="fw-bold text-black">Job Description</p>
-                </blockquote>
-                <figcaption class="blockquote-footer text-black">Entry Operational Data</figcaption>
-                <figcaption class="blockquote-footer text-black">Entry Financial Data</figcaption>
-                <figcaption class="blockquote-footer text-black">Entry item Data</figcaption>
-                <figcaption class="blockquote-footer text-black">Make a letter for the buyer</figcaption>
-              </figure>
-              <p class="fst-italic text-black">Agustus 2016 - November 2016</p>
-            </div>
+      <!-- Experience -->
+      <section id="experience">
+        <div id="carouselExampleCaptions" class="carousel slide" data-aos="zoom-in" data-aos-offset="500" data-aos-duration="1000" data-aos-delay="300" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
-          <div class="carousel-item">
-            <img src="assets/img/op.jpg" class="d-block w-100 opacity-50 carousel__img" alt="op1" />
-            <div class="carousel-caption carousel__caption d-none d-md-block">
-              <h5 class="text-black">
-                Politeknik LP3I Jakarta Kampus Pondok Gede
-                <p class="text-secondary d-inline">- Jakarta, Indonesia</p>
-              </h5>
-              <p class="text-black">Operator</p>
-              <figure>
-                <blockquote class="blockquote">
-                  <p class="fw-bold text-black">Job Description</p>
-                </blockquote>
-                <figcaption class="blockquote-footer text-black">Computer lab maintenance</figcaption>
-                <figcaption class="blockquote-footer text-black">Fix problems that occur in the computer lab</figcaption>
-              </figure>
-              <p class="fst-italic text-black">Februari 2020 - Februari 2020</p>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/img/admin.jpg" class="d-block w-100 opacity-50 carousel__img" alt="admin" />
+              <div class="carousel-caption carousel__caption d-none d-md-block">
+                <h5 class="text-black">
+                  PT Green Construction City
+                  <p class="text-secondary d-inline">- Bogor, Indonesia</p>
+                </h5>
+                <p class="text-black">Administration</p>
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="fw-bold text-black">Job Description</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer text-black">Entry Operational Data</figcaption>
+                  <figcaption class="blockquote-footer text-black">Entry Financial Data</figcaption>
+                  <figcaption class="blockquote-footer text-black">Entry item Data</figcaption>
+                  <figcaption class="blockquote-footer text-black">Make a letter for the buyer</figcaption>
+                </figure>
+                <p class="fst-italic text-black">Agustus 2016 - November 2016</p>
+              </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/op.jpg" class="d-block w-100 opacity-50 carousel__img" alt="op2" />
-            <div class="carousel-caption carousel__caption d-none d-md-block">
-              <h5 class="text-black">
-                Politeknik LP3I Jakarta Kampus Pondok Gede
-                <p class="text-secondary d-inline">- Jakarta, Indonesia</p>
-              </h5>
-              <p class="text-black">Operator</p>
-              <figure>
-                <blockquote class="blockquote">
-                  <p class="fw-bold text-black">Job Description</p>
-                </blockquote>
-                <figcaption class="blockquote-footer text-black">Computer lab maintenance</figcaption>
-                <figcaption class="blockquote-footer text-black">Fix problems that occur in the computer lab</figcaption>
-              </figure>
-              <p class="fst-italic text-black">Desember 2020 - Desember 2020</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/coding.jpg" class="d-block w-100 opacity-50 carousel__img" alt="coding" />
-            <div class="carousel-caption carousel__caption d-none d-md-block">
-              <h5 class="text-black">
-                PT Elaborasi Media Inovasi
-                <p class="text-secondary d-inline">- Bandung, Indonesia</p>
-              </h5>
-              <p class="text-black">Technical Operation</p>
-              <figure>
-                <blockquote class="blockquote">
-                  <p class="fw-bold text-black">Job Description</p>
-                </blockquote>
-                <figcaption class="blockquote-footer text-black">Creating a web-based disdagin application system</figcaption>
-                <figcaption class="blockquote-footer text-black">Creating UI for course app</figcaption>
-                <figcaption class="blockquote-footer text-black">Creating front end for course application</figcaption>
-                <figcaption class="blockquote-footer text-black">Make an interior design using unreal engine</figcaption>
-              </figure>
-              <p class="fst-italic text-black">September 2021 - Present</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-    <!-- end Experience -->
-
-    <!-- Education -->
-    <section id="education">
-      <div class="container mt-5">
-        <div class="row text-center mb-4">
-          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
-            <h2>Education</h2>
-          </div>
-        </div>
-        <div class="card mb-3 ms-auto me-auto" style="max-width: 1000px" data-aos="zoom-in" data-aos-duration="1000">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="assets/img/edu3.jpg" class="img-fluid rounded-start" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" alt="edu" />
-            </div>
-            <div class="col-md-8 mx-auto">
-              <div class="card-body">
-                <h5 class="card-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+            <div class="carousel-item">
+              <img src="assets/img/op.jpg" class="d-block w-100 opacity-50 carousel__img" alt="op1" />
+              <div class="carousel-caption carousel__caption d-none d-md-block">
+                <h5 class="text-black">
                   Politeknik LP3I Jakarta Kampus Pondok Gede
                   <p class="text-secondary d-inline">- Jakarta, Indonesia</p>
                 </h5>
-                <p class="card-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Diploma Informatika Komputer, 3.19/4.00.</p>
-                <p class="card-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"><small class="text-muted">September 2018 - September 2021</small></p>
+                <p class="text-black">Operator</p>
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="fw-bold text-black">Job Description</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer text-black">Computer lab maintenance</figcaption>
+                  <figcaption class="blockquote-footer text-black">Fix problems that occur in the computer lab</figcaption>
+                </figure>
+                <p class="fst-italic text-black">Februari 2020 - Februari 2020</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/op.jpg" class="d-block w-100 opacity-50 carousel__img" alt="op2" />
+              <div class="carousel-caption carousel__caption d-none d-md-block">
+                <h5 class="text-black">
+                  Politeknik LP3I Jakarta Kampus Pondok Gede
+                  <p class="text-secondary d-inline">- Jakarta, Indonesia</p>
+                </h5>
+                <p class="text-black">Operator</p>
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="fw-bold text-black">Job Description</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer text-black">Computer lab maintenance</figcaption>
+                  <figcaption class="blockquote-footer text-black">Fix problems that occur in the computer lab</figcaption>
+                </figure>
+                <p class="fst-italic text-black">Desember 2020 - Desember 2020</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/img/coding.jpg" class="d-block w-100 opacity-50 carousel__img" alt="coding" />
+              <div class="carousel-caption carousel__caption d-none d-md-block">
+                <h5 class="text-black">
+                  PT Elaborasi Media Inovasi
+                  <p class="text-secondary d-inline">- Bandung, Indonesia</p>
+                </h5>
+                <p class="text-black">Technical Operation</p>
+                <figure>
+                  <blockquote class="blockquote">
+                    <p class="fw-bold text-black">Job Description</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer text-black">Creating a web-based disdagin application system</figcaption>
+                  <figcaption class="blockquote-footer text-black">Creating UI for course app</figcaption>
+                  <figcaption class="blockquote-footer text-black">Creating front end for course application</figcaption>
+                  <figcaption class="blockquote-footer text-black">Make an interior design using unreal engine</figcaption>
+                </figure>
+                <p class="fst-italic text-black">September 2021 - Present</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- end Experience -->
+
+      <!-- Education -->
+      <section id="education">
+        <div class="container mt-5">
+          <div class="row text-center mb-4">
+            <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
+              <h2>Education</h2>
+            </div>
+          </div>
+          <div class="card mb-3 ms-auto me-auto" style="max-width: 1000px" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="assets/img/edu3.jpg" class="img-fluid rounded-start" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300" alt="edu" />
+              </div>
+              <div class="col-md-8 mx-auto">
+                <div class="card-body">
+                  <h5 class="card-title" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                    Politeknik LP3I Jakarta Kampus Pondok Gede
+                    <p class="text-secondary d-inline">- Jakarta, Indonesia</p>
+                  </h5>
+                  <p class="card-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">Diploma Informatika Komputer, 3.19/4.00.</p>
+                  <p class="card-text" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300"><small class="text-muted">September 2018 - September 2021</small></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,224L30,218.7C60,213,120,203,180,165.3C240,128,300,64,360,69.3C420,75,480,149,540,154.7C600,160,660,96,720,85.3C780,75,840,117,900,160C960,203,1020,245,1080,250.7C1140,256,1200,224,1260,192C1320,160,1380,128,1410,112L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End Education -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,224L30,218.7C60,213,120,203,180,165.3C240,128,300,64,360,69.3C420,75,480,149,540,154.7C600,160,660,96,720,85.3C780,75,840,117,900,160C960,203,1020,245,1080,250.7C1140,256,1200,224,1260,192C1320,160,1380,128,1410,112L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- End Education -->
 
-    <!-- Skills -->
-    <section id="skills">
-      <div class="container">
-        <div class="row text-center mb-4" data-aos="fade-down" data-aos-duration="1000">
-          <div class="col-md-12">
-            <h2>Skills</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-3 mb-4">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000">
-              <img src="assets/img/office.png" class="card-img-top" alt="office" />
+      <!-- Skills -->
+      <section id="skills">
+        <div class="container">
+          <div class="row text-center mb-4" data-aos="fade-down" data-aos-duration="1000">
+            <div class="col-md-12">
+              <h2>Skills</h2>
             </div>
           </div>
-          <div class="col-md-3 mb-4">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
-              <img src="assets/img/html.png" class="card-img-top" alt="html" />
-            </div>
-          </div>
-          <div class="col-md-3 mb-4">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
-              <img src="assets/img/bootstrap.png" class="card-img-top" alt="bootstrap" />
-            </div>
-          </div>
-          <div class="col-md-3 mb-4">
-            <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1000">
-              <img src="assets/img/laravel.png" class="card-img-top" alt="laravel" />
-            </div>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4">
-            <div class="card" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="1000">
-              <div class="card-header fw-bold">Personal Expertise :</div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">Communication</li>
-                <li class="list-group-item">Hard Work</li>
-                <li class="list-group-item">Flexibility</li>
-                <li class="list-group-item">Teamwork</li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card" data-aos="fade-left" data-aos-delay="1200" data-aos-duration="1000">
-              <div class="card-header fw-bold">Certificate :</div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item mt-1 mb-2">Certificate LSP Operator Computer</li>
-                <li class="list-group-item mt-1 mb-2">Certificate BNSP Operator Computer</li>
-                <li class="list-group-item mt-1 mb-2">Certificate BNSP Database Administrator</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,192L30,165.3C60,139,120,85,180,101.3C240,117,300,203,360,245.3C420,288,480,288,540,245.3C600,203,660,117,720,74.7C780,32,840,32,900,64C960,96,1020,160,1080,170.7C1140,181,1200,139,1260,117.3C1320,96,1380,96,1410,96L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End Skills -->
-
-    <!-- Contact Me -->
-    <section id="contact">
-      <div class="container mt-5">
-        <div class="row text-center mb-4">
-          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="alert alert-success alert-dismissible fade show d-none myAlert" data-aos="zoom-in" data-aos-duration="1000" role="alert">
-              <strong>Terima Kasih!</strong> Pesan anda sudah saya terima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="contact-form">
-              <div class="form-floating mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
-                <input type="text" class="form-control" name="name" id="name" placeholder="Enter Full Name" />
-                <label for="name">Full Name</label>
+          <div class="row justify-content-center">
+            <div class="col-md-3 mb-4">
+              <div class="card" data-aos="flip-left" data-aos-duration="1000">
+                <img src="assets/img/office.png" class="card-img-top" alt="office" />
               </div>
-              <div class="form-floating mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email" />
-                <label for="email">Email</label>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+                <img src="assets/img/html.png" class="card-img-top" alt="html" />
               </div>
-              <div class="form-floating" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
-                <textarea class="form-control" placeholder="Leave a comment here" name="comments" id="comments" style="height: 100px"></textarea>
-                <label for="comments">Comments</label>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+                <img src="assets/img/bootstrap.png" class="card-img-top" alt="bootstrap" />
               </div>
-              <!-- <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" placeholder="Masukan Nama" />
-              </div> -->
-              <!-- <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Masukan Email" />
-              </div> -->
-              <!-- <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3"></textarea>
-              </div> -->
-              <button type="submit" class="btn btn-primary mt-2 btn-submit" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1100">Submit</button>
-              <button class="btn btn-primary mt-2 btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-            </form>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1000">
+                <img src="assets/img/laravel.png" class="card-img-top" alt="laravel" />
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="card" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="1000">
+                <div class="card-header fw-bold">Personal Expertise :</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Communication</li>
+                  <li class="list-group-item">Hard Work</li>
+                  <li class="list-group-item">Flexibility</li>
+                  <li class="list-group-item">Teamwork</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" data-aos="fade-left" data-aos-delay="1200" data-aos-duration="1000">
+                <div class="card-header fw-bold">Certificate :</div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item mt-1 mb-2">Certificate LSP Operator Computer</li>
+                  <li class="list-group-item mt-1 mb-2">Certificate BNSP Operator Computer</li>
+                  <li class="list-group-item mt-1 mb-2">Certificate BNSP Database Administrator</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,224L34.3,213.3C68.6,203,137,181,206,176C274.3,171,343,181,411,181.3C480,181,549,171,617,176C685.7,181,754,203,823,186.7C891.4,171,960,117,1029,133.3C1097.1,149,1166,235,1234,256C1302.9,277,1371,235,1406,213.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End Contact Me -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#e2edff"
+            fill-opacity="1"
+            d="M0,192L30,165.3C60,139,120,85,180,101.3C240,117,300,203,360,245.3C420,288,480,288,540,245.3C600,203,660,117,720,74.7C780,32,840,32,900,64C960,96,1020,160,1080,170.7C1140,181,1200,139,1260,117.3C1320,96,1380,96,1410,96L1440,96L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- End Skills -->
 
-    <!-- Social Media -->
-    <section id="social">
-      <div class="container">
-        <div class="row text-center mb-4">
-          <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
-            <h2>Social Media</h2>
+      <!-- Contact Me -->
+      <section id="contact">
+        <div class="container mt-5">
+          <div class="row text-center mb-4">
+            <div class="col-md-12" data-aos="fade-down" data-aos-duration="1000">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="alert alert-success alert-dismissible fade show d-none myAlert" data-aos="zoom-in" data-aos-duration="1000" role="alert">
+                <strong>Terima Kasih!</strong> Pesan anda sudah saya terima.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+              <form name="contact-form">
+                <div class="form-floating mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Enter Full Name" />
+                  <label for="name">Full Name</label>
+                </div>
+                <div class="form-floating mb-3" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="700">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email" />
+                  <label for="email">Email</label>
+                </div>
+                <div class="form-floating" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="900">
+                  <textarea class="form-control" placeholder="Leave a comment here" name="comments" id="comments" style="height: 100px"></textarea>
+                  <label for="comments">Comments</label>
+                </div>
+                <button type="submit" class="btn btn-primary mt-2 btn-submit" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1100">Submit</button>
+                <button class="btn btn-primary mt-2 btn-loading d-none" type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Loading...
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-12">
-            <h6 class="d-inline" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" data-aos-delay="600">
-              <img src="assets/img/icons8_instagram_logo_4.svg" alt="ig" width="50" /><a href="https://www.instagram.com/dimasaryaaaa_/" class="sosmed">@dimasaryaaaa_</a>
-            </h6>
-            <h6 class="d-inline" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400" data-aos-delay="200">
-              <img src="assets/img/icons8_facebook.svg" alt="fb" /><a href="https://www.facebook.com/dimasaryay/" class="sosmed">Dimas Arya Yudistira</a>
-            </h6>
-            <h6 class="d-inline" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400" data-aos-delay="400">
-              <img src="assets/img/icons8_twitter.svg" alt="twitter" /><a href="https://twitter.com/DimasArya84" class="sosmed">@DimasArya84</a>
-            </h6>
-            <h6 class="d-inline" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="400" data-aos-delay="800">
-              <img src="assets/img/icons8_linkedin.svg" alt="linkedin" /><a href="kedin.com/in/dimas-arya-yudistira-88b487144/" class="sosmed">Dimas Arya Yudistira</a>
-            </h6>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#0d6efd"
-          fill-opacity="1"
-          d="M0,224L34.3,213.3C68.6,203,137,181,206,176C274.3,171,343,181,411,181.3C480,181,549,171,617,176C685.7,181,754,203,823,186.7C891.4,171,960,117,1029,133.3C1097.1,149,1166,235,1234,256C1302.9,277,1371,235,1406,213.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- End Social Media -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0d6efd"
+            fill-opacity="1"
+            d="M0,224L34.3,213.3C68.6,203,137,181,206,176C274.3,171,343,181,411,181.3C480,181,549,171,617,176C685.7,181,754,203,823,186.7C891.4,171,960,117,1029,133.3C1097.1,149,1166,235,1234,256C1302.9,277,1371,235,1406,213.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- End Contact Me -->
+    </div>
 
-    <button id="topBtn" type="button" class="btn btn-success"><i class="bi bi-chevron-up"></i></button>
+    <button id="topBtn" type="button" class="btn btn-success btn-circle"><i class="bi bi-chevron-up"></i></button>
 
     <!-- Footer -->
     <footer class="bg-primary text-center pb-5 text-white">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/dimasaryaaaa_/" class="text-white fw-bold">Dimas Arya Yudistira.</a></p>
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-md-12">
+            <p>My Social Media</p>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-md-12">
+            <a href="https://www.instagram.com/dimasaryaaaa_/" class="sosmed">
+              <img src="assets/img/icons8_instagram_logo_4.svg" alt="ig" width="50" />
+            </a>
+            <a href="https://www.facebook.com/dimasaryay/" class="sosmed">
+              <img src="assets/img/icons8_facebook.svg" alt="fb" />
+            </a>
+            <a href="https://twitter.com/DimasArya84" class="sosmed">
+              <img src="assets/img/icons8_twitter.svg" alt="twitter" />
+            </a>
+            <a href="kedin.com/in/dimas-arya-yudistira-88b487144/" class="sosmed">
+              <img src="assets/img/icons8_linkedin.svg" alt="linkedin" />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <p>Created with <i class="bi bi-heart-fill text-danger"></i> by Dimas Arya Yudistira</p>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- End Footer -->
 
@@ -422,6 +401,12 @@
         $("#topBtn").click(function () {
           $("html, body").animate({ scrollTop: 0 }, 800);
         });
+      });
+    </script>
+
+    <script>
+      var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+        target: "#navbar-example",
       });
     </script>
 
