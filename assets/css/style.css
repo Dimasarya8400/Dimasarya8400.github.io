@@ -9,17 +9,22 @@ body {
 
 #experience {
   padding-top: 2rem;
-  background-color: #fff;
+  background-color: #e2edff;
 }
 
 #education {
+  padding-top: 2rem;
+  background-color: #fff;
+}
+
+#skills {
   padding-top: 2rem;
   background-color: #e2edff;
 }
 
 #contact {
   padding-top: 2rem;
-  background-color: #e2edff;
+  background-color: #fff;
 }
 
 section {
@@ -39,7 +44,7 @@ section {
 
   top: 1;
   right: 0;
-  bottom: 0;
+  bottom: 1;
   left: 0;
 }
 
