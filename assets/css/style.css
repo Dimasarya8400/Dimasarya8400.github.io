@@ -12,6 +12,10 @@ body {
   background-color: #e2edff;
 }
 
+#experience h2 {
+  margin-top: 50px;
+}
+
 #education {
   padding-top: 2rem;
   background-color: #fff;
@@ -20,6 +24,10 @@ body {
 #skills {
   padding-top: 2rem;
   background-color: #e2edff;
+}
+
+#skills h2 {
+  margin-top: 50px;
 }
 
 #contact {
